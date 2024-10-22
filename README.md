@@ -1,4 +1,7 @@
-rust-url
+> [!IMPORTANT]  
+> `rust-url-wasmcloud` is a fork of [rust-url](https://github.com/servo/rust-url) that removes an unstable library feature that prevents the `url` crate from compiling on stable `wasm32-wasip2`. When [rust-url PR #983](https://github.com/servo/rust-url/pull/983) is merged and released, this crate will be deprecated in favor of the original crate.
+
+rust-url-wasmcloud
 ========
 
 [![Build status](https://github.com/servo/rust-url/workflows/CI/badge.svg)](https://github.com/servo/rust-url/actions?query=workflow%3ACI)
